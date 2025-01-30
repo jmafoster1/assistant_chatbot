@@ -1,0 +1,120 @@
+question	greeting	feedback_bug	feedback_feature	feedback_output	explanation	end	lang
+Hi	1	0	0	0	0	0	en
+Hey	1	0	0	0	0	0	en
+Hello	1	0	0	0	0	0	en
+Good morning	1	0	0	0	0	0	en
+Good evening	1	0	0	0	0	0	en
+Good afternoon	1	0	0	0	0	0	en
+hi again	1	0	0	0	0	0	en
+hi there	1	0	0	0	0	0	en
+greetings	1	0	0	0	0	0	en
+hello	1	0	0	0	0	0	en
+hallo	1	0	0	0	0	0	en
+hey	1	0	0	0	0	0	en
+hey hey	1	0	0	0	0	0	en
+hello there	1	0	0	0	0	0	en
+hi	1	0	0	0	0	0	en
+hello	1	0	0	0	0	0	en
+hola	1	0	0	0	0	0	en
+hey bot!	1	0	0	0	0	0	en
+hello friend	1	0	0	0	0	0	en
+I do not understand the result	0	0	0	0	1	0	en
+What do the probabilities mean mean?	0	0	0	0	1	0	en
+What is GAN?	0	0	0	0	1	0	en
+What is PRO-GAN?	0	0	0	0	1	0	en
+What is LDM RINE?	0	0	0	0	1	0	en
+What is ProGAN RINE?	0	0	0	0	1	0	en
+What is a Dissution model?	0	0	0	0	1	0	en
+What is ADM?	0	0	0	0	1	0	en
+Why was diffusion model detected?	0	0	0	0	1	0	en
+What is the reason behind detecting this method?	0	0	0	0	1	0	en
+Can I see the regions?	0	0	1	0	0	0	en
+There is an error	0	1	0	0	0	0	en
+That is not corrent	0	0	0	1	0	0	en
+I get an error	0	1	0	0	0	0	en
+There is a bug	0	1	0	0	0	0	en
+The classifier is wrong	0	0	0	1	0	0	en
+The image is in fact synthetic	0	0	0	1	0	0	en
+Server error	0	1	0	0	0	0	en
+I would like to see a more detailed explanation of the regions	0	0	1	0	0	0	en
+It would be better to cover more recent manipulation slgorithms	0	0	1	0	0	0	en
+The output is not correct	0	0	0	1	0	0	en
+ um thank you good bye	0	0	0	0	0	1	en
+okay cool uh good bye thank you	0	0	0	0	0	1	en
+okay thank you good bye	0	0	0	0	0	1	en
+and thats all thank you and good bye	0	0	0	0	0	1	en
+thank you and good bye	0	0	0	0	0	1	en
+sorry about my mistakes thank you good bye	0	0	0	0	0	1	en
+thank you goodbye	0	0	0	0	0	1	en
+okay thank you goodbye	0	0	0	0	0	1	en
+thank you	0	0	0	0	0	1	en
+okay thank you	0	0	0	0	0	1	en
+thanks goodbye	0	0	0	0	0	1	en
+thank you bye	0	0	0	0	0	1	en
+Hello. Why does the model decide it was generated using GAN? I am pretty sure this is a real photo. It was taken by Guardian on October 2024.	1	0	0	1	1	0	en
+It is hard to interpret the output. How can I see the specific regions that the model takes into account when it says the image is synthetic?	0	0	1	0	1	0	en
+I would like to be able to save the output with the prediction so that I can include it into external reports.	0	0	1	0	0	1	en
+Input disappears once I change the tab. Is it possible to keep the input when I switch through the tabs?	0	1	1	0	0	0	en
+Hello. Does the red region indicate that the image is synthetic or not?	0	0	0	0	1	0	en
+Hi. I keep getting at error that the server could not return the result. I am pretty sure this same URL worked yesterday. And there is no explanation interface would provide apart from the rror message.	1	1	0	0	0	0	en
+The database of known fakes and topic detection part keep returning an error from time to time. They also take too long to give the output when there is no error. Could you fix that?	0	1	0	0	0	0	en
+Why is it not possible to submit the TikTok URLs?	0	0	1	0	1	0	en
+This image is a well-known synthetic photo that appeared around 2022. Why is it detected as real? It is obvious it is fake.	0	0	0	1	1	0	en
+I submit my link and nothing happens. Please help	0	1	0	0	0	0	en
+What does the similar image tab return? I just see the same exact image	0	0	0	0	1	0	en
+Is there a way to navigate back after I submitted a new url so that I can see the result of the previous one?	0	0	1	0	1	0	en
+Hello. It would be useful to be able to submit one or two links side-by-side so that I could compare the outputs.	1	0	1	0	0	0	en
+Is there a way of submitting a file with a list of URLs? It is very very tedious to do it manually one-by-one.	0	0	1	0	1	0	en
+"Hey. So, if one method is triggered the image is fake?"	1	0	0	0	1	0	en
+Can I see the history of my previous inputs in my profile?	0	0	1	0	1	0	en
+Hi. How reliable are these models? Thanks	1	0	0	0	1	1	en
+What is only a parth of the image is synthetic?	0	0	0	0	1	0	en
+The plugin is very slow	0	1	0	0	0	0	en
+Can I see the model confidence??	0	0	1	0	1	0	en
+Is my data stored somewhere?	0	0	0	0	1	0	en
+"Hi, could you please unblock my account?"	0	1	0	0	0	0	en
+"The image is correct, but I do not get an output. Why?"	0	1	0	0	1	0	en
+Which models weree trained to get the result?	0	0	0	0	1	0	en
+I am not sure about this output	0	0	0	1	0	0	en
+How can I contact the team regarding this tool? I have new features to request.	0	0	1	0	1	0	en
+"I am confused. This image returned inconclusive results, but exactly the same image returned high probability. Also, some algorithms returned errors. This keeps happening. "	0	1	0	0	1	0	en
+"In the similar images tab, it shows that the similar image has 99% probability for LDA method. When I click on that image, it returns 1% probability. How is that possible?"	0	1	0	1	1	0	en
+"It says “inconclusive results”. But the probability is only 1%. Also, is it 1% it was detected? Does it mean it was generated using LDA?"	0	0	0	0	1	0	en
+The image is clearly synthetic. Wrong output.	0	0	0	1	0	0	en
+This is incorrect	0	0	0	1	0	0	en
+Not true	0	0	0	1	0	0	en
+"I am not sure why NONE of the algoruthms detected synthetic image, becaus eI have just generate dit using chatGPT."	0	0	0	0	0	0	en
+I would like to be able to analyze multiple image URLs simultaneously. Can you implement a bulk analysis feature?	0	0	1	0	0	0	en
+"It would be useful to have a detailed explanation of why an image was flagged as synthetic, including which parts of the image were most indicative."	0	0	1	0	0	0	en
+"Hello! Can you integrate additional detection algorithms to cover techniques beyond GAN, Pro-GAN, and LDA?"	1	0	1	0	0	0	en
+"Is it possible to download a report of the analysis, including the detection percentages and any similar images found?"	0	0	1	0	0	0	en
+I’d appreciate a feature that allows us to save and revisit the analysis history for all previously submitted images.	0	0	1	0	0	0	en
+"Hi there, could you provide a confidence score or interval alongside the detection percentages to indicate the reliability of the results?"	1	0	1	0	0	0	en
+"It would be great to have a comparison view for the analyzed image and its similar images, so I can easily spot differences or similarities."	0	0	1	0	0	0	en
+Can you add a feature to highlight specific regions of the image that contributed the most to the detection result?	0	0	1	0	0	0	en
+"Could you allow users to provide feedback on the accuracy of the detection results, so the system can improve over time?"	0	0	1	0	0	0	en
+"Hi! Is there a way to filter or categorize the results based on the strength of the evidence (e.g., weak, moderate, strong)?"	1	0	1	0	0	0	en
+Could you create a “learning mode” where users can submit corrections to refine the detection process for future analyses?	0	0	1	0	0	0	en
+Could you enable integration with external APIs or platforms to automate submitting image URLs for analysis?	0	0	1	0	0	0	en
+"It would be helpful to fix the issue where the page refreshes automatically after analyzing a URL, causing me to lose my results."	0	1	0	0	0	0	en
+"Hi there, sometimes the table of similar images loads but shows blank entries with no clickable links. Could you resolve this?"	1	1	0	0	0	0	en
+"I’d appreciate it if the system could remember my input URL history. Currently, it seems to reset unexpectedly. Could you check if this is a glitch?"	0	1	0	0	0	0	en
+"Occasionally, when I paste a new URL, the system doesn’t process it and displays an error message, even though the URL is valid."	0	1	0	0	0	0	en
+"The table showing previously analyzed similar images occasionally fails to display any results, even when it should. "	0	1	0	0	0	0	en
+"Hello! When I click on a similar image in the table, the analysis doesn't open or sometimes loads very slowly. Not sure what is the problem."	1	1	0	0	0	0	en
+"Hi, I analyzed an image that I know is synthetic, but the tool returned no evidence. "	1	0	0	1	0	0	en
+The output for a real photograph showed very strong evidence of being synthetic. Could there be a mistake in the detection process?	0	0	0	1	0	0	en
+Hello! I noticed that the percentages for the detection are inconsistent when I submit the same URL multiple times. Could you clarify why this happens?	1	0	0	1	1	0	en
+"I analyzed a famous GAN-generated image, but the tool indicated weak evidence. Could you review whether the algorithms are correctly identifying such cases?"	0	0	0	1	0	0	en
+"Hi, I believe the output for this image is incorrect because it flagged it as synthetic with 90% evidence, but I know the image is a verified authentic photograph."	1	0	0	1	0	0	en
+The similar image table shows conflicting results compared to the analysis of this image. Could you explain why the outputs don’t align?	0	0	0	1	1	0	en
+"I analyzed a grayscale version of a synthetic image, but the tool returned no evidence, even though the original image was flagged."	0	0	0	1	0	0	en
+"An image of a popular meme was analyzed, and the tool returned strong evidence of being synthetic. Could this be a false positive?"	0	0	0	1	0	0	en
+Hello! I believe the result is wrong because this image has been confirmed as an authentic photo from a trusted source. 	1	0	0	1	0	0	en
+"The tool flagged this image as authentic, but when I checked a similar image from the table, it was identified as synthetic. Could you explain the difference in the results?"	0	0	0	1	1	0	en
+"I believe there’s an error in the result because it shows “no evidence detected,” but the image is widely known to have been generated using GAN"	0	0	0	1	0	0	en
+"Hi there, the detection percentages vary when I analyze the same image at different resolutions. Why this happens? Thanks"	1	0	0	1	1	1	en
+"Hello, I’d like to understand how the tool defines “weak evidence” versus “moderate evidence.”"	1	0	0	0	1	0	en
+I’m curious—how were the models trained for detecting synthetic images? What kind of datasets were used?	0	0	0	0	1	0	en
+I’d like to understand how the tool defines “weak evidence” versus “moderate evidence”	0	0	0	0	1	0	en
+"Hi, how does the tool decide which similar images to display in the table? Is there a ranking system or similarity threshold?"	1	0	0	0	1	0	en
