@@ -47,13 +47,13 @@ class Multilang_Intent(FlaskService):
                 classes=classes[1]
         message=""
         if "GREETING" in classes:
-            message="Hello. How can I help ypu today? I can send your feedback about our tools or provide explanations about the results."
+            message="Hello! How can I assist you today? I can share your feedback about our tools or provide explanations regarding the results."
         elif "BUG" in classes:
-            message="Thank you for reporting the problem. We have sent it to our team to fix. Apologies for any inconvenience using our plugin."
+            message="Thank you for reporting the issue. We've forwarded it to our team for resolution. We apologize for any inconvenience caused while using our plugin."
         elif "FEATURE" in classes:
-            message="Thank you for requesting a new functionality. We have sent it to the relevant team and hope to implement it in nearesr future to improve your experience"
+            message="Thank you for requesting a new feature. We've forwarded it to the relevant team and hope to implement it in the near future to enhance your experience."
         elif "OUTPUT" in classes:
-            message="Thank you for providing feedback regarding our model. We have taken it into account and will use it to improve the performance of our algorithms."
+            message="Thank you for your feedback on our model. We've taken it into account and will use it to enhance the performance of our algorithms."
         elif "EXPLAIN" in classes:
             message="Thank you for your questions. We are looking through our documentation to provide the answer to your enquiry..."
         elif "GREETING" in classes:
