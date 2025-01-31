@@ -44,21 +44,22 @@ class Multilang_Intent(FlaskService):
     # I therefore will replace keep a non-elegant statement here for now, and replace it if we have python 3.10
     
     def check_class(*classes):
-                classes=classes[1]
+        classes=classes[1]
         message=""
-        if "GREETING" in classes:
-            message="Hello! How can I assist you today? I can share your feedback about our tools or provide explanations regarding the results."
-        elif "BUG" in classes:
-            message="Thank you for reporting the issue. We've forwarded it to our team for resolution. We apologize for any inconvenience caused while using our plugin."
-        elif "FEATURE" in classes:
-            message="Thank you for requesting a new feature. We've forwarded it to the relevant team and hope to implement it in the near future to enhance your experience."
+        if "EXPLAIN" in classes:
+            message="Thank you for your questions. We are looking through our documentation to provide the answer to your enquiry..."
         elif "OUTPUT" in classes:
             message="Thank you for your feedback on our model. We've taken it into account and will use it to enhance the performance of our algorithms."
-        elif "EXPLAIN" in classes:
-            message="Thank you for your questions. We are looking through our documentation to provide the answer to your enquiry..."
+        elif "FEATURE" in classes:
+            message="Thank you for requesting a new feature. We've forwarded it to the relevant team and hope to implement it in the near future to enhance your experience."
+        elif "BUG" in classes:
+            message="Thank you for reporting the issue. We've forwarded it to our team for resolution. We apologize for any inconvenience caused while using our plugin."
         elif "GREETING" in classes:
+            message="Hello! How can I assist you today? I can share your feedback about our tools or provide explanations regarding the results."
+        elif "END" in classes:
             message="Thank you for using the assistant chatbot!"
         return message
+        
     def run_model(self, input_str, threshold=DEFAULT_THRESHOLD, include_attention=True): 
         #getting model output
         inputs = self.tokenizer(input_str, truncation_strategy = True, max_length = 512,return_tensors='pt').to(self.device)
