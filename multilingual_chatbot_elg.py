@@ -89,8 +89,8 @@ class Multilang_Intent(FlaskService):
             # In all cases fall back to default.
             pass
 
-        #outputs = self.run_model(request.content, threshold=threshold)
-        outputs = self.run_model(request, threshold=threshold)
+        outputs = self.run_model(request.content, threshold=threshold)
+        #outputs = self.run_model(request, threshold=threshold)
         #return self.convert_outputs(outputs, request.content)
         return outputs
     
