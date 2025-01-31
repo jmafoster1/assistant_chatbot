@@ -94,9 +94,9 @@ class Multilang_Intent(FlaskService):
         #outputs = self.run_model(request, threshold=threshold)
         #return self.convert_outputs(outputs, request.content)
         return outputs
-    
-flask_service = Multilang_Intent("bert_intent")
-app = flask_service.app
+if __name__ == "__main__":    
+	flask_service = Multilang_Intent("bert_intent")
+	app = flask_service.app
 
-# testing examples
-# print(flask_service.process_text("Hi. I believe the image is actually legit."))
+	# testing examples
+	print(flask_service.process_text("Hi. I believe the image is actually legit."))

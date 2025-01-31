@@ -6,11 +6,11 @@ This repo contains the service that wraps the chatbot built for the VERA project
 
 ## Building the Python part
 
-The model is automatically imported from the publicly available Huggingface repository: lesyar/intent_detection. 
+The model is automatically imported from the publicly available Huggingface repository: lesyar/intent_detection.
 
 ## Running the model
 
-The application outputs the class, user's input and the model's output message. Only the output message is supposed to be displayed to the user through the interface. 
+The application outputs the class, user's input and the model's output message. Only the output message is supposed to be displayed to the user through the interface.
 If the class is either the FEATURE, or BUG, or OUTPUT, then class and the user's input should be sent to the Slack channel.
 
 To test the model, you can run:
@@ -21,3 +21,6 @@ Because the model detected "FEATURE", the first and second elements in the list 
 The last element in the output should always be displayed.
 
 In future, if the model detected "EXPLAIN", it would be calling another model for document retrieval, and it can work with a mock message for now.
+
+## Running as a local service
+``quart run -p 5001``
