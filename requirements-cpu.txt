@@ -1,0 +1,6 @@
+gunicorn
+elg[flask]==0.5.0
+pydantic<2
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.2.2
+transformers==4.45.0
