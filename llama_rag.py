@@ -67,7 +67,7 @@ print(f"Prepare pipeline: {round(time_2-time_1, 3)} sec.")
 
 
 print("loading the documents")
-loader = TextLoader("/docs/data.pdf",
+loader = TextLoader("/docs/data.txt",
                     encoding="utf8")
 documents = loader.load()
 
