@@ -29,7 +29,7 @@ device = f'cuda:{cuda.current_device()}' if cuda.is_available() else 'cpu'
 bnb_config = transformers.BitsAndBytesConfig(
     load_in_8bit=True,
     bnb_8bit_quant_type='nf4',
-    # bnb_8bit_use_double_quant=True,
+    bnb_8bit_use_double_quant=True,
     bnb_8bit_compute_dtype=bfloat16
 )
 
@@ -44,7 +44,7 @@ model_config = transformers.AutoConfig.from_pretrained(
 model = transformers.AutoModelForCausalLM.from_pretrained(
     model_id,
     trust_remote_code=True,
-    # quantization_config=bnb_config,
+    quantization_config=bnb_config,
     config=model_config,
     device_map='auto'
 )
