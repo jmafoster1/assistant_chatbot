@@ -4,12 +4,11 @@ pydantic<2
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch==2.2.2
 transformers==4.45.0
-quart==0.20.0
 
-accelerate==0.22.0 
-einops==0.6.1 
-langchain==0.0.300 
+accelerate==0.22.0
+einops==0.6.1
+langchain==0.0.300
 xformers==0.0.21
-bitsandbytes==0.41.1 
-sentence_transformers==2.2.2 
+bitsandbytes==0.41.1
+sentence_transformers==2.2.2
 chromadb==0.4.12
