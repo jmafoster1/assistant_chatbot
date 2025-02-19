@@ -1,4 +1,4 @@
-from quart import Quart
+from quart import Quart, request
 from multilingual_chatbot_elg import Multilang_Intent
 from llama_rag import LLAMA_RAG
 
@@ -8,9 +8,15 @@ model = Multilang_Intent("bert_intent")
 llama_rag = LLAMA_RAG()
 
 
-@app.route("/chat/<string:query>", methods=["GET", "POST"])
-async def json(query):
-    _, pred_classes, output = model.run_model(query)
+@app.route("/chat/", methods=["POST"])
+async def json():
+    data = await request.get_json()  # Get JSON data from the request body
+    message = data.get("message")
+    _, pred_classes, output = model.run_model(message)
     if "EXPLAIN" in pred_classes:
-        output, docs = llama_rag.call_rag(query)
-    return {"userMessageClasses": pred_classes, "message": output, "status": "success"}
+        output, _ = llama_rag.call_rag(message)
+    return {
+        "userMessageClasses": ["IMPROVEMENT" if p == "OUTPUT" else p for p in pred_classes],
+        "message": output,
+        "status": "success",
+    }

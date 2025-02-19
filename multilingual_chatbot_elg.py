@@ -30,7 +30,6 @@ class Multilang_Intent(FlaskService):
     # I therefore will replace keep a non-elegant statement here for now, and replace it if we have python 3.10
 
     def check_class(self, *classes):
-        classes = classes[1]
         message = ""
         if "EXPLAIN" in classes:
             message = (
